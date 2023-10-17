@@ -41,12 +41,6 @@ function coloring() {
         if (a % 2 !== 0) {
             color.style.backgroundColor = 'rgb(100, 75, 43)'
         }
-        // if (a % 2 == 0) {
-        //     color.style.backgroundColor = 'seagreen'
-        // }
-        // if (a % 2 !== 0) {
-        //     color.style.backgroundColor = 'lime'
-        // }
 
     })
 }
@@ -87,9 +81,6 @@ function reddish() {
                         i2.style.backgroundColor = 'rgb(100, 75, 43)'
                     }
 
-                    // if (pinkColor == greenColor) {
-                    //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
-                    // }
                 }
             })
         }
@@ -182,20 +173,7 @@ document.querySelectorAll('.box').forEach(item => {
                     if (aside > 1 && document.getElementById(`b${a + 100 - 1}`).innerText.length !== 0) {
                         document.getElementById(`b${a + 100 - 1}`).style.backgroundColor = 'green'
 
-                    }
-                    // if (aup == 800) {
-                    //     document.getElementById(`b${a}`).innerText = 'Wqueen'
-                    //     coloring()
-                    //     insertImage()
-                    // }
-                    // if (aside < 8 && document.getElementById(`b${a + 100 + 1}`).innerText.length == 0 && document.getElementById(`b${a + 100}`).innerText.length == 0) {
-                    //     document.getElementById(`b${a + 100}`).style.backgroundColor = 'green'
-                    // }
 
-                    // if (aside > 1 && document.getElementById(`b${a + 100 - 1}`).innerText.length == 0 && document.getElementById(`b${a + 100}`).innerText.length == 0) {
-                    //     document.getElementById(`b${a + 100}`).style.backgroundColor = 'green'
-
-                    // }
                 }
 
                 if (tog % 2 == 0 && aup > 100) {
@@ -572,9 +550,9 @@ document.querySelectorAll('.box').forEach(item => {
         }
 
 
-
+        }
     })
-
+    
 })
 
 
@@ -694,10 +672,6 @@ document.querySelectorAll('.box').forEach(item => {
 
 
 
-
-
-
-// Prvents from selecting multiple elements
 z = 0
 document.querySelectorAll('.box').forEach(ee => {
     ee.addEventListener('click', function () {
